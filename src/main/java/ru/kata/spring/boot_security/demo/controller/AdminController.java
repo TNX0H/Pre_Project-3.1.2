@@ -14,7 +14,7 @@ import javax.validation.Valid;
 import java.util.ArrayList;
 
 @Component
-@RequestMapping()
+@RequestMapping("admin")
 public class AdminController {
 
     private final UserService userService;
